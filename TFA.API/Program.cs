@@ -40,3 +40,5 @@ app.MapControllers();
 app.UseMiddleware<ErrorHandlingMiiddleware>();
 
 app.Run();
+
+public partial class Progarm{}

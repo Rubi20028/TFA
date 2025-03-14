@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFA.Domain.DependencyInject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFA.Storage.DependencyInjection", "TFA.Storage.DependencyInjection\TFA.Storage.DependencyInjection.csproj", "{190AD17A-8FEE-43A3-85FF-98CA9E202156}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFA.E2E", "TFA.E2E\TFA.E2E.csproj", "{A2732625-AAB2-4BA8-AA8E-E2003DCB48BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{190AD17A-8FEE-43A3-85FF-98CA9E202156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{190AD17A-8FEE-43A3-85FF-98CA9E202156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{190AD17A-8FEE-43A3-85FF-98CA9E202156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2732625-AAB2-4BA8-AA8E-E2003DCB48BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2732625-AAB2-4BA8-AA8E-E2003DCB48BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2732625-AAB2-4BA8-AA8E-E2003DCB48BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2732625-AAB2-4BA8-AA8E-E2003DCB48BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -15,3 +15,4 @@ C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjecti
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\refint\TFA.Storage.DependencyInjection.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.pdb
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\ref\TFA.Storage.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.sourcelink.json

@@ -11,13 +11,17 @@ public static class ServiceCollectionExtensions
 {
     public static IServiceCollection AddForumStorage(this IServiceCollection services, string dbConnectionString)
     {
-        return services
-        .AddScoped<IGetForumsStorage, GetForumStorage>()
-        .AddScoped<ICreateTopicStorage, CreateTopicStorage>()
-        .AddScoped<IGetTopicsStorage, GetTopicsStorage>()
-        .AddScoped<IGuidFactory, GuidFactory>()
-        .AddScoped<IMomentProvider, MomentProvider>()
-        .AddDbContextPool<ForumDbContext>(options => options
-            .UseNpgsql(dbConnectionString));
+        services
+            .AddScoped<IGetForumsStorage, GetForumStorage>()
+            .AddScoped<ICreateTopicStorage, CreateTopicStorage>()
+            .AddScoped<IGetTopicsStorage, GetTopicsStorage>()
+            .AddScoped<IGuidFactory, GuidFactory>()
+            .AddScoped<IMomentProvider, MomentProvider>()
+            .AddDbContextPool<ForumDbContext>(options => options
+                .UseNpgsql(dbConnectionString));
+        
+        services.AddMemoryCache();
+
+        return services;
     }
 }

@@ -12,6 +12,21 @@ namespace TFA.API.Controller;
 [Route("forums")]
 public class ForumController : ControllerBase
 {
+    [HttpPost]
+    public async Task<IActionResult> CreateForum(
+        [FromBody] CreateForum request,
+        [FromServices] ICreateForumUseCase useCase,
+        CancellationToken cancellationToken)
+    {
+        var command = new CreateForumCommand(request.Title);
+        var forum = await useCase.Execute(command, cancellationToken);
+        return CreatedAtRoute(nameof(GetForums), new Forum
+        {
+            Id = forum.Id,
+            Title = forum.Title
+        });
+    }
+    
     /// <summary>
     /// 
     /// </summary>
@@ -55,6 +70,9 @@ public class ForumController : ControllerBase
     }
 
     [HttpGet("{forumId:guid}/topics")]
+    [ProducesResponseType(400)]
+    [ProducesResponseType(410)]                                                                               // 4хх ошибка клиента 
+    [ProducesResponseType(200 )]
     public async Task<IActionResult> GetTopic(
         [FromRoute] Guid forumId,
         [FromQuery] int skip,

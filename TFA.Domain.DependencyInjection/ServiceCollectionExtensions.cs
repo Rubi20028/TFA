@@ -26,9 +26,6 @@ public static class ServiceCollectionExtensions
         
         services
             .AddValidatorsFromAssemblyContaining<Forum>(includeInternalTypes: true);
-
-        services
-            .AddMemoryCache();
         
         return services;
     }

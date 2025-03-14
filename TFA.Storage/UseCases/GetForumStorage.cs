@@ -6,15 +6,14 @@ namespace TFA.Storage.UseCases;
 
 internal class GetForumStorage : IGetForumsStorage
 {
-    private readonly ForumDbContext forumDbContext;
     private readonly IMemoryCache memoryCache;
-
+    private readonly ForumDbContext forumDbContext;
     public GetForumStorage(
-        ForumDbContext forumDbContext,
-        IMemoryCache memoryCache)
+        IMemoryCache memoryCache,
+        ForumDbContext forumDbContext)
     {
-        this.forumDbContext = forumDbContext;
         this.memoryCache = memoryCache;
+        this.forumDbContext = forumDbContext;
     }
 
     public async Task<IEnumerable<Domain.Models.Forum>> GetForums(CancellationToken cancellationToken) =>
