@@ -1,0 +1,17 @@
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Storage.DependencyInjection.deps.json
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Storage.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Storage.DependencyInjection.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Storage.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Storage.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\bin\Debug\net8.0\TFA.Domain.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.AssemblyInfo.cs
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Stor.C45A8479.Up2Date
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\refint\TFA.Storage.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\TFA.Storage.DependencyInjection.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage.DependencyInjection\obj\Debug\net8.0\ref\TFA.Storage.DependencyInjection.dll

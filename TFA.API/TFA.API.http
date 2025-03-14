@@ -1,0 +1,6 @@
+@TFA.API_HostAddress = http://localhost:5111
+
+GET {{TFA.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

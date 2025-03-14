@@ -1,0 +1,12 @@
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\bin\Debug\net8.0\TFA.Domain.deps.json
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\bin\Debug\net8.0\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\bin\Debug\net8.0\TFA.Domain.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.AssemblyInfo.cs
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\refint\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\ref\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain\obj\Debug\net8.0\TFA.Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "25omxLNCvqmWt0ik3ZzUVcisDI1FMEOQpWjjQhGkdTAG10bxjsW0/Xp8WJPXlTRLS+Lr0GUGP5nxIOSw82R3ig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.Domain\\TFA.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

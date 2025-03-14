@@ -1,0 +1,15 @@
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\bin\Debug\net8.0\TFA.Storage.deps.json
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\bin\Debug\net8.0\TFA.Storage.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\bin\Debug\net8.0\TFA.Storage.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.AssemblyInfo.cs
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\refint\TFA.Storage.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Storage.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\ref\TFA.Storage.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\bin\Debug\net8.0\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\bin\Debug\net8.0\TFA.Domain.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Storage\obj\Debug\net8.0\TFA.Stor.BDC7F30B.Up2Date

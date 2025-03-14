@@ -1,0 +1,15 @@
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\bin\Debug\net8.0\TFA.Domain.DependencyInjection.deps.json
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\bin\Debug\net8.0\TFA.Domain.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\bin\Debug\net8.0\TFA.Domain.DependencyInjection.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\bin\Debug\net8.0\TFA.Domain.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\bin\Debug\net8.0\TFA.Domain.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.AssemblyInfo.cs
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Doma.DB5499D8.Up2Date
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\refint\TFA.Domain.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\TFA.Domain.DependencyInjection.pdb
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.Domain.DependencyInjection\obj\Debug\net8.0\ref\TFA.Domain.DependencyInjection.dll
