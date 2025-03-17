@@ -1,0 +1,7 @@
+{
+  "TFA.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.API",
+  "TFA.Domain.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.Domain.DependencyInjection",
+  "TFA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.Domain",
+  "TFA.Storage.DependencyInjection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.Storage.DependencyInjection",
+  "TFA.Storage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.Storage"
+}
