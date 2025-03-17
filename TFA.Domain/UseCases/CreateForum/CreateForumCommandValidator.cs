@@ -3,7 +3,7 @@ using TFA.Domain.Exceptions;
 
 namespace TFA.Domain.UseCases.CreateForum;
 
-public class CreateForumCommandValidator : AbstractValidator<CreateForumCommand>
+internal class CreateForumCommandValidator : AbstractValidator<CreateForumCommand>
 {
     public CreateForumCommandValidator()
     {

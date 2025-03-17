@@ -4,7 +4,7 @@ using TFA.Domain.Models;
 
 namespace TFA.Domain.UseCases.CreateForum;
 
-class CreateForumUseCase : ICreateForumUseCase
+internal class CreateForumUseCase : ICreateForumUseCase
 {
     private readonly IValidator<CreateForumCommand> validator;
     private readonly IntentionManager intentionManager;

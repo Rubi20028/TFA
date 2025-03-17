@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using TFA.API.Models;
+using TFA.Domain.UseCases.CreateForum;
 using TFA.Domain.UseCases.CreateTopic;
 using TFA.Domain.UseCases.GetForums;
 using TFA.Domain.UseCases.GetTopics;
@@ -13,6 +14,9 @@ namespace TFA.API.Controller;
 public class ForumController : ControllerBase
 {
     [HttpPost]
+    [ProducesResponseType(400)]
+    [ProducesResponseType(403)]
+    [ProducesResponseType(201, Type = typeof(Forum))]
     public async Task<IActionResult> CreateForum(
         [FromBody] CreateForum request,
         [FromServices] ICreateForumUseCase useCase,

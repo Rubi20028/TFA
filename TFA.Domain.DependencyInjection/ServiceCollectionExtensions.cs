@@ -4,6 +4,7 @@ using TFA.Domain.Authentication;
 using TFA.Domain.Authorization;
 using TFA.Domain.Identity;
 using TFA.Domain.Models;
+using TFA.Domain.UseCases.CreateForum;
 using TFA.Domain.UseCases.CreateTopic;
 using TFA.Domain.UseCases.GetForums;
 using TFA.Domain.UseCases.GetTopics;
@@ -15,6 +16,8 @@ public static class ServiceCollectionExtensions
     public static IServiceCollection AddForumDomain(this IServiceCollection services)
     {
         services
+            .AddScoped<ICreateForumUseCase, CreateForumUseCase>()
+            .AddScoped<IIntentionResolver, ForumIntentionResolver>()
             .AddScoped<IGetForumsUseCase, GetForumsUseCase>()
             .AddScoped<ICreateTopicUseCase, CreateTopicUseCase>()
             .AddScoped<IGetTopicsUseCase, GetTopicsUseCase>()

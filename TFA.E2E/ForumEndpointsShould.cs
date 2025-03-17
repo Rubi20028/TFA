@@ -1,6 +1,5 @@
-﻿using FluentAssertions;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
+﻿using System.Net.Http.Json;
+using FluentAssertions;
 
 namespace E2E;
 
@@ -14,14 +13,12 @@ public class ForumEndpointsShould : IClassFixture<ForumApiApplicationFactory>
     }
     
     [Fact]
-    public async Task ReturnListOfForums()
+    public async Task CreateNewForum()
     {
         using var httpClient = factory.CreateClient();
-        using var response = await httpClient.GetAsync("forums");
-        response.Invoking(r=> r.EnsureSuccessStatusCode()).Should().NotThrow();
-        response.EnsureSuccessStatusCode();
+        using var response = await httpClient.PostAsync("forums", 
+            JsonContent.Create(new{title ="Test"}));
         
-        var result = await response.Content.ReadAsStringAsync();
-        result.Should().Be("[]");
+        response.Invoking(r=> r.EnsureSuccessStatusCode()).Should().NotThrow();
     }
 }
