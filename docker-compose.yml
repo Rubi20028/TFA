@@ -1,5 +1,3 @@
-version: "3.9"
-
 networks:
   default:
     name: 'tfa'
@@ -8,17 +6,7 @@ volumes:
   tfa-logs:
   
 services:
-  
-  postgres:
-    container_name: 'tfa-pg'
-    image: 'postgres:latest'
-    ports:
-      - '5432:5432'
-    environment:
-      POSTGRES_PASSWORD: 'admin'
-    volumes:
-      - tfa-pg:/var/lib/postgresql/data
-      - 
+
   opensearch:
     container_name: 'tfa-os'
     image: 'opensearchproject/opensearch:latest'

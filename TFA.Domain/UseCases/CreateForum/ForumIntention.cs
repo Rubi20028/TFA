@@ -2,5 +2,5 @@
 
 public enum ForumIntention
 {
-    Create,
+    Create
 }

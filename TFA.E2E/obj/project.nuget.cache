@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5MHh7ScG7thJlGpSu+N2CPLA0TL0Hlz4pw/KHThjudAhSp0bBFWAATUje6WkBgfzALRF3Q8Xa2IIn/LvObe2eQ==",
+  "dgSpecHash": "A5ccYzJNN+pT8TPLmu0ZD/be7BRD6D0CwQ3GGelldvc53WIBAWvjwJmgb4Ih9tAwp4GiXq0jduY1aIpETekzig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.E2E\\TFA.E2E.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\docker.dotnet.enhanced\\3.126.1\\docker.dotnet.enhanced.3.126.1.nupkg.sha512",

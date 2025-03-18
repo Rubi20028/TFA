@@ -7,7 +7,7 @@ using TFA.Storage;
 
 namespace E2E;
 
-public class ForumApiApplicationFactory : WebApplicationFactory<Progarm>, IAsyncLifetime
+public class ForumApiApplicationFactory : WebApplicationFactory<Program>, IAsyncLifetime
 {
     private readonly PostgreSqlContainer dbContainer = new PostgreSqlBuilder().Build();
 

@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "bkVQORSZ6OGgl/BKil+mMekXaW4bh1ufO7jVC4ahkdlpT5Iv9cyJQiYv9xia99wQhS4Yj9UUq+21hnXnDZ+84A==",
+  "dgSpecHash": "buQRGkz6yCm3756WKHxPHE/IbNz4iO49xiZOIbFvY9qXTZAwrjuYMHS+969SovWRX2GturiZnEmbVud9YTieiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.Storage\\TFA.Storage.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.2\\microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.2\\microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512",

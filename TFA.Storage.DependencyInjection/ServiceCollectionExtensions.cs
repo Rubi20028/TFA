@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using TFA.Domain.UseCases.CreateForum;
 using TFA.Domain.UseCases.CreateTopic;
@@ -14,7 +15,7 @@ public static class ServiceCollectionExtensions
     {
         services
             .AddScoped<ICreateForumStorage, CreateForumStorage>()
-            .AddScoped<IGetForumsStorage, GetForumStorage>()
+            .AddScoped<IGetForumsStorage, GetForumsStorage>()
             .AddScoped<ICreateTopicStorage, CreateTopicStorage>()
             .AddScoped<IGetTopicsStorage, GetTopicsStorage>()
             .AddScoped<IGuidFactory, GuidFactory>()
@@ -24,6 +25,8 @@ public static class ServiceCollectionExtensions
         
         services.AddMemoryCache();
 
+        services.AddAutoMapper(config => config
+            .AddMaps(Assembly.GetAssembly(typeof(ForumDbContext))));
         return services;
     }
 }

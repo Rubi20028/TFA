@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "T+kn6mw4dMjyJX3aAR0t7MUbWfkAWixhjOMfmA0cRvM0Xnap+g3r9fZtI3iqCfzlSznMqtrH/ptG2nJI/h6weg==",
+  "dgSpecHash": "BT6Nvbs29ejlnrbt8I7EB7upGdJdu8mqH7xFE4PAbnXXarXjgtVmubReKcuvW/4wBS8v6hQKM2Z1gPmBlW6S5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\RiderProject\\TFAProject\\TFA.Storage\\TFA.API\\TFA.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

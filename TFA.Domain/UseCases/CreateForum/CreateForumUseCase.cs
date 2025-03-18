@@ -7,12 +7,12 @@ namespace TFA.Domain.UseCases.CreateForum;
 internal class CreateForumUseCase : ICreateForumUseCase
 {
     private readonly IValidator<CreateForumCommand> validator;
-    private readonly IntentionManager intentionManager;
+    private readonly IIntentionManager intentionManager;
     private readonly ICreateForumStorage storage;
     
     public CreateForumUseCase(
         IValidator<CreateForumCommand> validator,
-        IntentionManager intentionManager,
+        IIntentionManager intentionManager,
         ICreateForumStorage storage)
     {
         this.validator = validator;
@@ -26,6 +26,6 @@ internal class CreateForumUseCase : ICreateForumUseCase
         
         intentionManager.ThrowIfForbidden(ForumIntention.Create);
         
-        return await storage.CreateForum(command.Title, cancellationToken);
+        return await storage.Create(command.Title, cancellationToken);
     }
 }
