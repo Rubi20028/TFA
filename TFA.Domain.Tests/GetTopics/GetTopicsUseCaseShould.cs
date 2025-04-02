@@ -42,7 +42,7 @@ public class GetTopicsUseCaseShould
         getForumsSetup.ReturnsAsync(new Forum[] { new() {Id = Guid.Parse("973C05EA-9A04-415B-A1B6-751FDD52DE41")} });
 
         var query = new GetTopicsQuery(forumId, 0, 1);
-        await sut.Invoking(s => s.Execute(query, CancellationToken.None))
+        await sut.Invoking(s => s.Handle(query, CancellationToken.None))
             .Should().ThrowAsync<ForumNotFoundException>();
     }
     
@@ -56,7 +56,7 @@ public class GetTopicsUseCaseShould
         var expectedTotalCount = 6;
         getTopicSetup.ReturnsAsync((expectedResources, expectedTotalCount));
         
-        var (actualResources, actualTotalCount) = await sut.Execute(
+        var (actualResources, actualTotalCount) = await sut.Handle(
             new GetTopicsQuery(forumId, 5, 10), CancellationToken.None);
 
         actualResources.Should().BeEquivalentTo(expectedResources);

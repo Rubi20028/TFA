@@ -1,4 +1,4 @@
-﻿using TFA.Domain.Identity;
+﻿using TFA.Domain.Authentication;
 
 namespace TFA.Domain.Authorization;
 

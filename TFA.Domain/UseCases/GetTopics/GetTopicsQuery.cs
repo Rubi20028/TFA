@@ -1,3 +1,7 @@
-﻿namespace TFA.Domain.UseCases.GetTopics;
+﻿using MediatR;
+using TFA.Domain.Models;
 
-public record GetTopicsQuery(Guid ForumId, int Skip, int Take);
+namespace TFA.Domain.UseCases.GetTopics;
+
+public record GetTopicsQuery(Guid ForumId, int Skip, int Take)
+    : IRequest<(IEnumerable<Topic> resources, int totalCount)>;

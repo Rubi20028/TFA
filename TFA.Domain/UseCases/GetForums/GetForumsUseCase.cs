@@ -1,15 +1,34 @@
-﻿using Forum = TFA.Domain.Models.Forum;
+﻿using MediatR;
+using TFA.Domain.Monitoring;
+using Forum = TFA.Domain.Models.Forum;
 
 namespace TFA.Domain.UseCases.GetForums;
 
-internal class GetForumsUseCase : IGetForumsUseCase
+internal class GetForumsUseCase : IRequestHandler<GetForumsQuery, IEnumerable<Forum>>
 {
     private readonly IGetForumsStorage storage;
+    private readonly DomainMetrics metrics;
 
-    public GetForumsUseCase(IGetForumsStorage storage)
+    public GetForumsUseCase(
+        IGetForumsStorage storage,
+        DomainMetrics metrics)
     {
         this.storage = storage;
+        this.metrics = metrics;
     }
-    public Task<IEnumerable<Forum>> Execute(CancellationToken cancellationToken) => 
-        storage.GetForums(cancellationToken);
+
+    public async Task<IEnumerable<Forum>> Handle(GetForumsQuery getForumsQuery, CancellationToken cancellationToken)
+    {
+        try
+        {
+            var result = await storage.GetForums(cancellationToken);
+            metrics.ForumFetched(true);
+            return result;
+        }
+        catch
+        {
+            metrics.ForumFetched(false);
+            throw;
+        }
+    }
 }

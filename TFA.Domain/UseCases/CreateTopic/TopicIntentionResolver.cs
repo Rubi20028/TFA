@@ -1,6 +1,5 @@
 ﻿using TFA.Domain.Authentication;
 using TFA.Domain.Authorization;
-using TFA.Domain.Identity;
 
 namespace TFA.Domain.UseCases.CreateTopic;
 

@@ -102,7 +102,6 @@ C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.AspNetCore.WebUtilities.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.CSharp.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
-C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Configuration.Ini.dll
@@ -122,7 +121,6 @@ C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Localization.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.ObjectPool.dll
-C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\refs\Microsoft.JSInterop.dll
@@ -458,3 +456,14 @@ C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\obj\Debug\net8.0\TFA.
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\obj\Debug\net8.0\ref\TFA.E2E.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\MediatR.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.Api.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.Exporter.Console.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.Exporter.Prometheus.AspNetCore.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.E2E\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll

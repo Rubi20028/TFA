@@ -163,3 +163,15 @@ C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\TFA.
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\obj\Debug\net8.0\TFA.API.sourcelink.json
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.Api.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.Api.ProviderBuilderExtensions.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.Exporter.Prometheus.AspNetCore.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.Extensions.Hosting.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.Instrumentation.AspNetCore.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\OpenTelemetry.Exporter.Console.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\Admin\RiderProject\TFAProject\TFA.Storage\TFA.API\bin\Debug\net8.0\MediatR.Contracts.dll

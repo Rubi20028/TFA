@@ -6,8 +6,8 @@ using Moq.Language.Flow;
 using TFA.Domain.Authentication;
 using TFA.Domain.Authorization;
 using TFA.Domain.Exceptions;
-using TFA.Domain.Identity;
 using TFA.Domain.Models;
+using TFA.Domain.Monitoring;
 using TFA.Domain.UseCases.CreateTopic;
 using TFA.Domain.UseCases.GetForums;
 using Topic = TFA.Domain.Models.Topic;
@@ -20,7 +20,7 @@ public class CreateTopicUseCaseShould
     private readonly Mock<ICreateTopicStorage> storage;
     private readonly ISetup<ICreateTopicStorage, Task<Topic>> createTopicSetup;
     private readonly ISetup<IIdentity,Guid> getCurrentUserIdSetup;
-    private readonly ISetup<IIntentionManager,bool> intentionIsAllowedSetup;
+    private readonly ISetup<IIntentionManager, bool> intentionIsAllowedSetup;
     private readonly Mock<IIntentionManager> intentionManager;
     private readonly Mock<IGetForumsStorage> getForumStorage;
     private readonly ISetup<IGetForumsStorage, Task<IEnumerable<Forum>>> getForumsSetup;
@@ -47,7 +47,7 @@ public class CreateTopicUseCaseShould
         validator.Setup(v=> v.ValidateAsync(It.IsAny<CreateTopicCommand>(), It.IsAny<CancellationToken>()))
             .ReturnsAsync(new ValidationResult()); // чтобы вернуть успешный успех используй (( ValidatorResult ))
         
-        sut = new(validator.Object, intentionManager.Object, identityProvider.Object,getForumStorage.Object, storage.Object);
+        sut = new(validator.Object, intentionManager.Object, identityProvider.Object,getForumStorage.Object, storage.Object, new DomainMetrics());
     }
 
     
@@ -58,7 +58,7 @@ public class CreateTopicUseCaseShould
 
         intentionIsAllowedSetup.Returns(false);
         
-        await sut.Invoking(s => s.Execute(new CreateTopicCommand(forumId, "Whatever"), CancellationToken.None))
+        await sut.Invoking(s => s.Handle(new CreateTopicCommand(forumId, "Whatever"), CancellationToken.None))
             .Should().ThrowAsync<IntentionManagerException>();
         intentionManager.Verify(m => m.IsAllowed(TopicIntention.Create));
     }
@@ -72,8 +72,9 @@ public class CreateTopicUseCaseShould
         intentionIsAllowedSetup.Returns(true);
         getForumsSetup.ReturnsAsync(Array.Empty<Forum>());
 
-        await sut.Invoking(s => s.Execute(new CreateTopicCommand(forumId, "Some title"), CancellationToken.None))
-            .Should().ThrowAsync<ForumNotFoundException>();
+        (await sut.Invoking(s => s.Handle(new CreateTopicCommand(forumId, "Some title"), CancellationToken.None))
+            .Should().ThrowAsync<ForumNotFoundException>())
+            .Which.DomainErrorCode.Should().Be(DomainErrorCode.Gone);
     }
 
     
@@ -89,7 +90,7 @@ public class CreateTopicUseCaseShould
         var expected = new Topic();
         createTopicSetup.ReturnsAsync(expected);
 
-        var actual = await sut.Execute(new CreateTopicCommand(forumId, "Hello world"), CancellationToken.None);
+        var actual = await sut.Handle(new CreateTopicCommand(forumId, "Hello world"), CancellationToken.None);
         actual.Should().Be(expected);
         
         storage.Verify(s=> s.CreateTopic(forumId, userId, "Hello world", It.IsAny<CancellationToken>()), Times.Once);

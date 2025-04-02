@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Caching.Memory;
 using TFA.Domain;
 using TFA.Domain.UseCases.CreateTopic;
+using TFA.Storage.Entities;
 
 namespace TFA.Storage.UseCases;
 

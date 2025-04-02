@@ -1,29 +1,27 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using TFA.Domain.Authorization;
 using TFA.Domain.Exceptions;
 
 namespace TFA.API.Middlewares;
 
-public class ErrorHandlingMiiddleware
+public class ErrorHandlingMiddlewares
 {
     private readonly RequestDelegate next;
 
-    public ErrorHandlingMiiddleware(RequestDelegate next)
+    public ErrorHandlingMiddlewares(RequestDelegate next)
     { 
         this.next = next;
     }
     
     public async Task InvokeAsync(
         HttpContext httpcontext,
-        ILogger<ErrorHandlingMiiddleware> logger,
+        ILogger<ErrorHandlingMiddlewares> logger,
         ProblemDetailsFactory problemDetailsFactory)
     {
         try
         {
-            logger.LogError("Error handling started for request in path {RequestPath}", httpcontext.Request.Path.Value );
             await next.Invoke(httpcontext);
         }
         

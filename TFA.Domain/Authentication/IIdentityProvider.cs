@@ -1,8 +1,6 @@
-﻿using TFA.Domain.Authentication;
-
-namespace TFA.Domain.Identity;
+﻿namespace TFA.Domain.Authentication;
 
 public interface IIdentityProvider
 {
-    IIdentity Current { get; }
+    IIdentity Current { get; set; }
 }
